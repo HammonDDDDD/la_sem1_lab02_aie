@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from types import DenseMatrix, Shape
+from type import DenseMatrix, Shape
 
 
 class Matrix(ABC):
@@ -50,3 +50,4 @@ class Matrix(ABC):
     def _matmul_impl(self, other: 'Matrix') -> 'Matrix':
         """Реализация умножения матриц."""
         pass
+
